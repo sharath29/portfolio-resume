@@ -1,2 +1,2 @@
 # portfolio-resume
-Showcasing me as a person
+What I did?
