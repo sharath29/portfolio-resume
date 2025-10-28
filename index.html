@@ -32,8 +32,8 @@
           </div>
           <div class="flex flex-1 justify-end gap-8">
             <div class="flex items-center gap-9">
+              <a class="text-[#171212] text-sm font-medium leading-normal" href="#about">About</a>
               <a class="text-[#171212] text-sm font-medium leading-normal" href="#projects">Projects</a>
-              <a class="text-[#171212] text-sm font-medium leading-normal" href="#skills">Skills</a>
               <a class="text-[#171212] text-sm font-medium leading-normal" href="#experience">Experience</a>
               <a class="text-[#171212] text-sm font-medium leading-normal" href="#contact">Contact</a>
             </div>
@@ -57,11 +57,25 @@
                     ></div>
                   </a>
                   <div class="flex flex-col items-center justify-center justify-center">
-                    <p class="text-[#171212] text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">Sharath Savasere</p>
-                    <p class="text-[#836767] text-base font-normal leading-normal text-center">Member of Technical Staff</p>
+                    <p class="text-[#171212] text-[22px] font-bold leading-tight tracking-[-0.015em] text-center">Hey, I'm Sharath Savasere</p>
+                    <p class="text-[#836767] text-base font-normal leading-normal text-center">Computer Engineer focused on building distributed systems. I love turning complex problems into reliable, scalable software.</p>
+                    <div class="flex gap-3 pt-4">
+                      <a href="mailto:sharath.savasere@gmail.com" class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f3d2d2] text-[#171212] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#e8c2c2]">
+                        <span class="truncate">Contact Me</span>
+                      </a>
+                      <a href="https://drive.google.com/file/d/1E3CEN2wh2hbW5pWsaXLZnGeYHofv3LJ6/view?usp=sharing" target="_blank" class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 border border-[#e4dddd] text-[#171212] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#f9f6f6]">
+                        <span class="truncate">Resume</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
+            <h2 id="about" class="text-[#171212] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Who I am</h2>
+            <div class="flex flex-col gap-4 px-4 pb-5">
+              <p class="text-[#836767] text-base font-normal leading-normal">I graduated from the National Institute of Technology Karnataka (NITK) in 2019 with a B.Tech in Computer Science and Engineering. Since then, I've primarily worked as a backend engineer, delivering projects in distributed systems.</p>
+              <p class="text-[#836767] text-base font-normal leading-normal">I enjoy software engineering, collaborating with developers, and diving deep into debugging—whether it's my code or helping others.</p>
+              <p class="text-[#836767] text-base font-normal leading-normal">When I'm not programming, you'll find me watching documentaries on YouTube, playing football, jump roping (skipping), fidgeting with Rubik's cubes, or playing chess.</p>
             </div>
             <h2 id="experience" class="text-[#171212] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Experience</h2>
             <div class="grid grid-cols-[40px_1fr] gap-x-2 px-4">
@@ -76,12 +90,13 @@
                 <div class="w-[1.5px] bg-[#e4dddd] h-2 grow"></div>
               </div>
               <div class="flex flex-1 flex-col py-3">
-                <p class="text-[#171212] text-base font-medium leading-normal">Member of Technical Staff at MarkovML</p>
+                <p class="text-[#171212] text-base font-medium leading-normal">Founding Engineer (SDE III) at MarkovML</p>
                 <p class="text-[#836767] text-base font-normal leading-normal">Jul. 2022 – Present</p>
                 <ul class="list-disc pl-5 text-[#836767] text-sm font-normal leading-normal">
-                  <li>Developed and maintained a comprehensive system for managing configurations across multiple services.</li>
-                  <li>Implemented a secure user management system for authentication, authorization, and account management.</li>
-                  <li>Designed and integrated a versatile notification system (Slack, in-app, email) and a tagging system.</li>
+                  <li>Shipped core microservices: Notifications, RBAC, usage analytics, config, and remote schedulers.</li>
+                  <li>Built the backend for an LLM copywriter (PDF/DOCX/TXT parsing + indexing for AI-powered editing).</li>
+                  <li>Designed workflow orchestration across data connectors with AI-assisted steps.</li>
+                  <li>Developed a conversational marketing scientist agent integrated with multiple MCP servers.</li>
                 </ul>
               </div>
 
@@ -100,9 +115,50 @@
                 <p class="text-[#171212] text-base font-medium leading-normal">Software Engineer at Zeta</p>
                 <p class="text-[#836767] text-base font-normal leading-normal">Feb. 2021 – Jul. 2022</p>
                 <ul class="list-disc pl-5 text-[#836767] text-sm font-normal leading-normal">
-                  <li>Implemented ETL pipeline to extract, transform, and load data using Redshift to AWS S3.</li>
-                  <li>Collaborated in building UPI payment module for major banks in India (20-30 million transactions/month).</li>
-                  <li>Designed dispute management system and implemented Redis caching layer, reducing network calls by 15%.</li>
+                  <li>Implemented an ETL pipeline using Amazon Redshift and AWS S3 for analytics/BI.</li>
+                  <li>Deployed to 8 clients globally to power data visualization and insights.</li>
+                  <li>Co-built the UPI payment module for major banks (20–30M transactions/month).</li>
+                  <li>Designed dispute management and added a Redis caching layer, cutting network calls by 15%.</li>
+                </ul>
+              </div>
+
+              <div class="flex flex-col items-center gap-1 pt-3">
+                <div class="w-[1.5px] bg-[#e4dddd] h-2"></div>
+                <div class="text-[#171212]" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="w-[1.5px] bg-[#e4dddd] h-2 grow"></div>
+              </div>
+              <div class="flex flex-1 flex-col py-3">
+                <p class="text-[#171212] text-base font-medium leading-normal">Software Engineer at Visa</p>
+                <p class="text-[#836767] text-base font-normal leading-normal">Jul. 2019 – Feb. 2021</p>
+                <ul class="list-disc pl-5 text-[#836767] text-sm font-normal leading-normal">
+                  <li>Improved VisaNet reliability with monitoring and alerting tools, reducing incidents by 30%.</li>
+                  <li>Automated high-throughput transaction execution using parallel stream processing.</li>
+                </ul>
+              </div>
+
+              <div class="flex flex-col items-center gap-1 pt-3">
+                <div class="w-[1.5px] bg-[#e4dddd] h-2"></div>
+                <div class="text-[#171212]" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="w-[1.5px] bg-[#e4dddd] h-2 grow"></div>
+              </div>
+              <div class="flex flex-1 flex-col py-3">
+                <p class="text-[#171212] text-base font-medium leading-normal">Software Engineer Intern at Visa</p>
+                <p class="text-[#836767] text-base font-normal leading-normal">May. 2018 – Jul. 2018</p>
+                <ul class="list-disc pl-5 text-[#836767] text-sm font-normal leading-normal">
+                  <li>Built an ISO 8583 parser to fetch/modify mainframe transaction data and re-ingest to VisaNet (20% effort reduction).</li>
+                  <li>Automated variant transaction runs, improving test execution efficiency by 50%.</li>
                 </ul>
               </div>
 
@@ -117,37 +173,94 @@
                 </div>
               </div>
               <div class="flex flex-1 flex-col py-3">
-                <p class="text-[#171212] text-base font-medium leading-normal">Software Engineer at Visa</p>
-                <p class="text-[#836767] text-base font-normal leading-normal">Jul. 2019 – Feb. 2021</p>
-                 <ul class="list-disc pl-5 text-[#836767] text-sm font-normal leading-normal">
-                  <li>Improved VisaNet reliability by building monitoring tools, reducing incidents by 30%.</li>
-                  <li>Designed a parser for ISO 8583 transaction data, decreasing manual effort by 20%.</li>
+                <p class="text-[#171212] text-base font-medium leading-normal">Mentor at IE NITK</p>
+                <p class="text-[#836767] text-base font-normal leading-normal">May. 2017 – Aug. 2017</p>
+                <ul class="list-disc pl-5 text-[#836767] text-sm font-normal leading-normal">
+                  <li>Mentored 20 students on web development (Django, Python).</li>
+                  <li>Built a TODO application using Django.</li>
                 </ul>
               </div>
             </div>
             <h2 id="projects" class="text-[#171212] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Projects</h2>
             <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
-              <a href="https://ieeexplore.ieee.org/document/9008031" target="_blank" style="text-decoration: none; color: inherit;">
+              <a href="https://github.com/sharath29/Health-Care-System-IOT" target="_blank" style="text-decoration: none; color: inherit;">
                 <div class="flex flex-col gap-3 pb-3">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBcNa0HaEX9zgoPyp6vD-nC_uVE4tpKe28lzM3P0rx5imzA0T2eziAmrmvVp0RTCfABeGTBXj7EXVXFS-fe-CP9Pwz6es4ZPeydmKGGKMgm8YpddMZg-TlA0twx8-BRE8PPHFxCB-4BrypP3ls8SFJrAghs6QB3sXlC0GEBr9uxlzAdgp1IQ9qkiIlFStEknNz9j-ay08pdbWoTMz6E5ECQzgkjbVe6Kp_V-N7pCU1dHZvALEUi-Gui04t-rDLIXQgPXBnkxqIjWw");'
-                  ></div>
+                  <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-[#e4dddd]"></div>
                   <div>
-                    <p class="text-[#171212] text-base font-medium leading-normal">Word Sense Disambiguation Using Bidirectional LSTM</p>
-                    <p class="text-[#836767] text-sm font-normal leading-normal">Achieved 75% - 79% accuracy score by implementing a single network of BLSTM that exploits word orders using Google Word Sense Disambiguation Corpora.</p>
+                    <p class="text-[#171212] text-base font-medium leading-normal">Healthcare Monitoring IoT</p>
+                    <p class="text-[#836767] text-sm font-normal leading-normal">Multiple health sensors connected to a Raspberry Pi continuously read a patient's vitals and send them to a Django server, which alerts a doctor on abnormal readings.</p>
                   </div>
                 </div>
               </a>
               <a href="https://github.com/sharath29/kmeans-cuda" target="_blank" style="text-decoration: none; color: inherit;">
                 <div class="flex flex-col gap-3 pb-3">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC2U51KmuAshrIL8HZmpUEwJ9tgzpVL4qKApS1EpNygREAtvGe-ZUhAO8tERGb5xuFV8NpZ5Z9MZiqbsXwQQ1uGZ7jlQ67oiFF6_dicnrbVbzv34RNiPlhOfSsULoACjPZ57RKUHC89cW-C3wWwAWBhu6qfhMa-Ok0VB0JZ3BXymJxyPPfYIaGBUWRj8HnjpcqHXYEfFj0hBEtHTdXhTdsKL_K1Nm0Fkw67gLfDI00smLmMQ42EGmBOOLa1Jf-tYiorNwY67fPrQA");'
-                  ></div>
+                  <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-[#e4dddd]"></div>
                   <div>
-                    <p class="text-[#171212] text-base font-medium leading-normal">K-means parallel algorithm implementation on CUDA</p>
-                    <p class="text-[#836767] text-sm font-normal leading-normal">Reduced storage memory consumption of images by 24% and time complexity by 30% using K-means parallel clustering algorithm.</p>
+                    <p class="text-[#171212] text-base font-medium leading-normal">CUDA K-Means Clustering</p>
+                    <p class="text-[#836767] text-sm font-normal leading-normal">Parallel K-Means implementation using CUDA for faster clustering on large datasets.</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://github.com/sharath29/Word-Sense-Disambiguation-using-LSTM" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-[#e4dddd]"></div>
+                  <div>
+                    <p class="text-[#171212] text-base font-medium leading-normal">IEEE Paper Publication</p>
+                    <p class="text-[#836767] text-sm font-normal leading-normal">Word Sense Disambiguation using Bi-Directional LSTM.</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://sharath29.github.io/CO367-Distributed-Computing-Assignment/" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-[#e4dddd]"></div>
+                  <div>
+                    <p class="text-[#171212] text-base font-medium leading-normal">Service Discovery in Microservices</p>
+                    <p class="text-[#836767] text-sm font-normal leading-normal">Explored Serf and Consul for distributed container service discovery.</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://sharath29.github.io/JavaScript-Snake/" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-[#e4dddd]"></div>
+                  <div>
+                    <p class="text-[#171212] text-base font-medium leading-normal">Snakes</p>
+                    <p class="text-[#836767] text-sm font-normal leading-normal">A p5.js snake game that grows when it eats a red fruit.</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://github.com/sharath29/Compiler-C" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-[#e4dddd]"></div>
+                  <div>
+                    <p class="text-[#171212] text-base font-medium leading-normal">C Compiler</p>
+                    <p class="text-[#836767] text-sm font-normal leading-normal">A simple compiler written in C.</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://github.com/sharath29/codefundo-chess-music" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-[#e4dddd]"></div>
+                  <div>
+                    <p class="text-[#171212] text-base font-medium leading-normal">CodeFundo — Chessically</p>
+                    <p class="text-[#836767] text-sm font-normal leading-normal">A chess app that generates music from each move played on the board.</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://github.com/sharath29/project-euler" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-[#e4dddd]"></div>
+                  <div>
+                    <p class="text-[#171212] text-base font-medium leading-normal">Project Euler</p>
+                    <p class="text-[#836767] text-sm font-normal leading-normal">Solutions to the top 100 Project Euler problems.</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://phabricator.services.mozilla.com/D15284" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="flex flex-col gap-3 pb-3">
+                  <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl bg-[#e4dddd]"></div>
+                  <div>
+                    <p class="text-[#171212] text-base font-medium leading-normal">Mozilla-Central Contribution</p>
+                    <p class="text-[#836767] text-sm font-normal leading-normal">Contributed to the Firefox codebase by fixing browser styling bugs.</p>
                   </div>
                 </div>
               </a>
@@ -193,28 +306,24 @@
                 </div>
               </div>
             </div>
-            <h2 id="contact" class="text-[#171212] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Contact</h2>
+            <h2 id="contact" class="text-[#171212] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Get in touch</h2>
             <div class="flex max-w-[480px] flex-col gap-4 px-4 py-3">
-              <label class="flex flex-col w-full">
-                <p class="text-[#171212] text-base font-medium leading-normal pb-2">Email</p>
-                <input
-                  placeholder="your.email@example.com"
-                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#171212] focus:outline-0 focus:ring-0 border border-[#e4dddd] bg-white focus:border-[#e4dddd] h-14 placeholder:text-[#836767] p-[15px] text-base font-normal leading-normal"
-                  value="sharath.savasere@gmail.com"
-                />
-              </label>
-              <div class="flex justify-end">
-                <a
-                  href="mailto:sharath.savasere@gmail.com"
-                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f3d2d2] text-[#171212] text-sm font-bold leading-normal tracking-[0.015em]"
-                >
-                  <span class="truncate">Send</span>
-                </a>
-              </div>
+              <p class="text-[#836767] text-base font-normal leading-normal">Want to collaborate or have a question? Schedule a meeting or email me directly at sharath.savasere@gmail.com.</p>
+              <a
+                href="mailto:sharath.savasere@gmail.com"
+                class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 border border-[#e4dddd] text-[#171212] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#f9f6f6]"
+              >
+                <span class="truncate">Email Me</span>
+              </a>
               <div class="flex flex-col items-start gap-2 pt-4">
-                <p class="text-[#171212] text-base font-medium leading-normal">Connect with me:</p>
-                <a href="https://www.linkedin.com/in/sharath-savasere/" target="_blank" class="text-[#171212] text-sm font-medium leading-normal hover:underline">LinkedIn: linkedin.com/in/sharath-savasere/</a>
-                <a href="https://github.com/sharath29" target="_blank" class="text-[#171212] text-sm font-medium leading-normal hover:underline">GitHub: github.com/sharath29</a>
+                <p class="text-[#171212] text-base font-medium leading-normal">Socials</p>
+                <p class="text-[#836767] text-sm font-normal leading-normal">Check out my YouTube for football freestyle!</p>
+                <div class="flex gap-4 pt-2">
+                  <a href="https://twitter.com/SavasereSharath" target="_blank" class="text-[#171212] text-sm font-medium leading-normal hover:underline">Twitter</a>
+                  <a href="https://www.youtube.com/channel/UCGtkfVTpNJ55NVklCurkinw" target="_blank" class="text-[#171212] text-sm font-medium leading-normal hover:underline">YouTube</a>
+                  <a href="https://www.linkedin.com/in/sharath-savasere/" target="_blank" class="text-[#171212] text-sm font-medium leading-normal hover:underline">LinkedIn</a>
+                  <a href="https://github.com/sharath29" target="_blank" class="text-[#171212] text-sm font-medium leading-normal hover:underline">GitHub</a>
+                </div>
               </div>
             </div>
           </div>
